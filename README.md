@@ -4,6 +4,8 @@
 # ApacheSolrRCE
 ApacheSolrRCE（CVE-2019-0193）一键写shell，原理是通过代码执行的java文件流写的马。
 
+[Apache-Solr-CVE-2019-0193-漏洞利用](https://jdr2021.github.io/2022/09/12/Apache-Solr-CVE-2019-0193-%E6%BC%8F%E6%B4%9E%E5%88%A9%E7%94%A8/)
+
 注：作者本人比较菜，如果你有bug或者有别的需求，请自行下载代码修改。
 
 
