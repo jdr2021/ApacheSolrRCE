@@ -8,7 +8,9 @@ ApacheSolrRCE（CVE-2019-0193）一键写shell，原理是通过代码执行的j
 
 
 # 工具说明
-由于互联网上流传的payload都是命令执行，且不方便上webshell，因此写了这段payload
+由于互联网上流传的payload都是命令执行，且不方便上webshell，因此写了这段payload（回显123456时，代表写入成功）。
+
+注：工具只能辅助测试，如果工具写不进去，建议手写。
 
 ```
 <dataConfig>
