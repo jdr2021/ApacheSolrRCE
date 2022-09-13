@@ -39,3 +39,9 @@ return row;
 在点击getshell即可。
 
 注：将你的webshell，放在shell目录下，工具会自动加载你的webshell至下拉列表中。
+
+<img src="https://github.com/jdr2021/ApacheSolrRCE/blob/master/1663056948552.jpg">
+
+默认代理是http代理，端口是8080，代码里面写死了的，需要的自己编译修改即可。
+
+<img src="https://github.com/jdr2021/ApacheSolrRCE/blob/master/1663057045317.jpg">
