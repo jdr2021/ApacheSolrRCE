@@ -59,6 +59,20 @@ return row;
 
 <font color="red">注：实际测试时发现，由于杀软问题，点击GETSHELL后，没有任何提示。但是有可能webshell是已经写上去了，建议打开burpsuite，在proxy->http history中看一下webshell的名字，然后访问一下。</font>
 
+如果点击检测提示是有漏洞的，不出意外就是有漏洞的。
+
+<img src="https://github.com/jdr2021/ApacheSolrRCE/blob/master/1663089037739.jpg">
+
+我这里的判断方式是执行代码 base64decode("xxx")，如果回显有chenggongla，那就是有漏洞
+
+但是在写冰蝎4的时候，发现存在杀软的时候，还是会拦截的。
+
+<img src="https://github.com/jdr2021/ApacheSolrRCE/blob/master/1663081638024.jpg">
+
+但实际上马是写进去了的
+
+<img src="https://github.com/jdr2021/ApacheSolrRCE/blob/master/1663081744373.jpg">
+
 # 特别感谢
 
 [solr_exploit](https://github.com/1135/solr_exploit)
