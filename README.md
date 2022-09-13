@@ -57,6 +57,7 @@ return row;
 
 <img src="https://github.com/jdr2021/ApacheSolrRCE/blob/master/1663057045317.jpg">
 
+<font color="red">注：实际测试时发现，由于杀软问题，点击GETSHELL后，没有任何提示。但是有可能webshell是已经写上去了，建议打开burpsuite，在proxy->http history中看一下webshell的名字，然后访问一下。</font>
 
 # 特别感谢
 
